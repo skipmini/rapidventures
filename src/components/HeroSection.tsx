@@ -1,7 +1,7 @@
 import { CtaButton } from "./CtaButton";
 
 const imgRightColumn =
-  "https://www.figma.com/api/mcp/asset/06a878d5-463a-442c-b527-61e87b35dd2c.png";
+  "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80";
 
 export function HeroSection() {
   return (
