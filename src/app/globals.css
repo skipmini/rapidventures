@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f3ef;
+  --foreground: #121212;
+
+  /* RapidVentures design tokens (from Figma) */
+  --color-surface-default: #121212;
+  --color-surface-subtle: #1c1c1c;
+  --color-surface-light: #f3f4f6;
+  --color-page: #f5f3ef;
+  --color-brand-yellow: #fff600;
+  --color-border-subtle: #262626;
+  --color-border-muted: #27272a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface-default: var(--color-surface-default);
+  --color-surface-subtle: var(--color-surface-subtle);
+  --color-surface-light: var(--color-surface-light);
+  --color-page: var(--color-page);
+  --color-brand-yellow: var(--color-brand-yellow);
+  --color-border-subtle: var(--color-border-subtle);
+  --color-border-muted: var(--color-border-muted);
+  --font-sans: var(--font-prompt);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
